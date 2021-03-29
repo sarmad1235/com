@@ -24,5 +24,5 @@ $text = urlencode("
  - ʙʏ :- @S33333
 ");
 $url = "https://api.telegram.org/bot".$API_KEY."/sendMessage?chat_id=$admin&text=$text&parse_mode=markdown";
-file_get_contents($url);
-?>
+file_get_contents($url
+
